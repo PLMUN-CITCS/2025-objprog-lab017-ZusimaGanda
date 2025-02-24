@@ -5,17 +5,17 @@ public class GradeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-       int score = getStudentScore(scanner); // Get the student's score
-        String grade = calculateGrade(score); // Calculate the grade
+       int score = getStudentScore(scanner); 
+        String grade = calculateGrade(score); 
 
-        System.out.println("Your Grade is: " + grade); // Display the grade
+        System.out.println("Your Grade is: " + grade); 
         scanner.close();
     }
 
     
     public static int getStudentScore(Scanner scanner) {
         System.out.print("Enter your score: ");
-        return scanner.nextInt(); // Assuming integer scores
+        return scanner.nextInt(); 
     }
 
     
